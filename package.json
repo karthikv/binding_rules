@@ -1,6 +1,6 @@
 {
   "name": "binding_rules",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Custom tslint rules for binding functions.",
   "author": "Karthik Viswanathan",
   "license": "MIT",
