@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+npm publish .
+git push
+git push --tags

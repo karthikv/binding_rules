@@ -1,6 +1,17 @@
 {
   "name": "binding_rules",
   "version": "0.0.1",
+  "description": "Custom tslint rules for binding functions.",
+  "author": "Karthik Viswanathan",
+  "license": "MIT",
+  "homepage": "https://github.com/karthikv/binding_rules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthikv/binding_rules"
+  },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "tslint": "^5.11.0",
     "tsutils": "^3.8.0",
