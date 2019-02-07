@@ -1,4 +1,5 @@
 # Binding rules
+[![Linux build status][semaphore-img]][semaphore-url]
 This package provides two custom tslint rules to control binding functions:
 `no-unbound-method-decorator` and `no-arrow-class-property`, as described
 further below.
@@ -99,5 +100,7 @@ Karthik Viswanathan -- karthik.ksv@gmail.com
 ## License
 Binding rules is [MIT licensed](LICENSE).
 
+[semaphore-img]: https://semaphoreci.com/api/v1/karthikv/binding_rules/branches/master/badge.svg
+[semaphore-url]: https://semaphoreci.com/karthikv/binding_rules
 [no-unbound-method]: https://palantir.github.io/tslint/rules/no-unbound-method/
 [autobind-decorator]: https://github.com/andreypopp/autobind-decorator
