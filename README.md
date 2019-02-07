@@ -1,5 +1,6 @@
 # Binding rules
 [![Linux build status][semaphore-img]][semaphore-url]
+
 This package provides two custom tslint rules to control binding functions:
 `no-unbound-method-decorator` and `no-arrow-class-property`, as described
 further below.
