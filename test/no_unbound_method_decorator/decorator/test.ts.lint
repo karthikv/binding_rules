@@ -1,0 +1,18 @@
+class Foo {
+  nonDecorated() {}
+  @boundMethod
+  decorated() {}
+
+  internal() {
+    this.decorated
+    this.nonDecorated
+    ~~~~~~~~~~~~~~~~~ [0]
+  }
+}
+
+const foo = new Foo()
+foo.decorated
+foo.nonDecorated
+~~~~~~~~~~~~~~~~ [0]
+
+[0]: Avoid referencing unbound methods which may cause unintentional scoping of 'this'.

@@ -1,0 +1,12 @@
+class Foo {
+  first = () => {}
+  ~~~~~ [0]
+  second() {}
+}
+
+const bar = () => {}
+const baz = {
+  third: () => {}
+}
+
+[0]: Avoid arrow function class properties. Prefer a decorator or binding in the constructor.

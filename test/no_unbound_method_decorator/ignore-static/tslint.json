@@ -1,0 +1,9 @@
+{
+  "linterOptions": {
+    "typeCheck": true
+  },
+  "rulesDirectory": ["../../../dist"],
+  "rules": {
+    "no-unbound-method-decorator": [true, "ignore-static"]
+  }
+}

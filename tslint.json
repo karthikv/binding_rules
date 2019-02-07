@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "member-access": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "property-declaration"
+    ],
+    "no-unbound-method": true,
+    "no-conditional-assignment": false,
+    "max-classes-per-file": false,
+    "no-namespace": false,
+    "member-ordering": false
+  },
+  "linterOptions": {
+    "exclude": ["**/*.js", "**/*.json"]
+  }
+}
