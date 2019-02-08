@@ -26,8 +26,8 @@ Register the rules in your `tslint.json`:
 
 ## `no-unbound-method-decorator`
 This is the same as the [core `no-unbound-method` rule][no-unbound-method] rule,
-but also supports an option `decorator` to specify an the name of a decorator
-that binds a function (e.g. the `boundMethod` decorator from
+but also supports an option `decorator` to specify the name of a decorator that
+binds a function (e.g. the `boundMethod` decorator from
 [autobind-decorator][autobind-decorator]). If a method is decorated with this
 decorator, it won't be considered unbound.
 
